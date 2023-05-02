@@ -27,137 +27,48 @@ src="https://cdnjs.cloudflare.com/ajax/libs/d3plus/1.9.2/d3plus.full.min.js"></s
 
   </a>
   <br />
-  <html>
-  
   <style>
   h1 {color:black; font-size:24px;text-align: center;border-radius: 30px;}
   </style>
-
-  <body>
   <h1> Hábitos personales y costos de seguro médico
 </h1>
-  <p>El siguiente análisis está dirigido a los clientes que desean adquirir un seguro médico privado, con la finalidad de que conozcan el impacto que tienen sus hábitos de vida  en el precio de sus seguros médicos.
-  <br />
-  <br />
-  La información con la que se realiza el análisis en esta práctica es la misma que se utilizó en la actividad 1 de la materia de Estadística la cual se puede descargar de en donde se llevaron acabo estudios de regresión para conocer la relación que existía entre cada uno de los diferentes hábitos de las personas y el costo de su seguro médico, la información se puede descargar de https://www.kaggle.com/datasets/mirichoi0218/insurance?resource=download.
-  </p>
-  </body>
-  </html>
-  <br />
-  <html>
-  <head>
-  <style>
-  h1 {color:black; font-size:24px;text-align: center;border-radius: 30px;}
-  </style>
-  </head>
-  <body>
-  <h1> Objetivos
+<p>El siguiente análisis está dirigido a los clientes que desean adquirir un seguro médico privado, con la finalidad de que conozcan el impacto que tienen sus hábitos de vida  en el precio de sus seguros médicos.
+<br />
+<br />
+La información con la que se realiza el análisis en esta práctica es la misma que se utilizó en la actividad 1 de la materia de Estadística la cual se puede descargar de en donde se llevaron acabo estudios de regresión para conocer la relación que existía entre cada uno de los diferentes hábitos de las personas y el costo de su seguro médico, la información se puede descargar de https://www.kaggle.com/datasets/mirichoi0218/insurance?resource=download.
+</p>
+<h1> Objetivos
 </h1>
-  <p>1.-Observar las características de la muestra poblacional
-  <br />
-  2.-Realizar un acercamiento a los resultados por género
-  <br />
-  3.-Identificar de acuerdo a la muestra ¿que características tienen aquellas personas con las cuotas más altas en el pago de seguro médico?
-  </p>
-  </body>
-  </html>
-  <br />
-  <html>
-  <head>
-  <style>
-  h2 {color:black; font-size:14px;text-align: left;border-radius: 30px;}
-  </style>
-  </head>
-  <body>
-  <h2> 1.-Observar las características de la muestra poblacional
+<p>1.-Observar las características de la muestra poblacional
+<br />
+2.-Realizar un acercamiento a los resultados por género
+<br />
+3.-Identificar de acuerdo a la muestra ¿que características tienen aquellas personas con las cuotas más altas en el pago de seguro médico?
+</p>
+<style>
+h2 {color:black; font-size:14px;text-align: left;border-radius: 30px;}
+</style>
+<h2> 1.-Observar las características de la muestra poblacional
 </h2>
   <p>Los gráficos para este análisis se realizarán con google sheets debido a que ocuparemos revisar  la misma información vista desde diferentes ángulos para comprender los matices de la muestra poblacional y considero que es una herramienta muy dinámica para mostrar gráficas circulares y de barras que son las que más ayudan en la comprensión de este tipo de análisis. 
-  <br />
-  <br />
-  <div id="viz3"></div>
-  
+  </p>
   <iframe width="510" height="315" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjNbXQ6bSgJZ2xvIWNTC3hsajpDxL7OiACXwOAUSAOwHaX50CaU--8WfY9iODTva5rANbQzkUklpXB/pubchart?oid=1145909630&amp;format=interactive"></iframe>
 
   <iframe width="510" height="315" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjNbXQ6bSgJZ2xvIWNTC3hsajpDxL7OiACXwOAUSAOwHaX50CaU--8WfY9iODTva5rANbQzkUklpXB/pubchart?oid=1614922587&amp;format=interactive"></iframe>
 
   <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjNbXQ6bSgJZ2xvIWNTC3hsajpDxL7OiACXwOAUSAOwHaX50CaU--8WfY9iODTva5rANbQzkUklpXB/pubchart?oid=416771157&amp;format=interactive"></iframe>
-  </body>
-  </html>
-  <html>
-  <head>
-  <style>
-  h1 {color:black; font-size:24px;text-align: center;border-radius: 30px;}
-  </style>
-  </head>
-  <body>
   <p>En las gráficas anteriores se puede observar que la población está distribuida prácticamente al 50% para hombres y mujeres, sin embargo en la segunda gráfica se observa que cuando mayor es la edad del asegurado mayor es el costo del seguro, de hecho se observa un pico muy pronunciado para asegurados con 43 años de edad, respecto al hábito del tabaco no parece influir demasiado respeto al incremento en los seguros ya que para los grupos de todas las edades se observa cierta uniformidad.
-  </p>
-  </body>
-  </html>
-  <html>
-  <head>
-  <style>
-  h1 {color:black; font-size:24px;text-align: center;border-radius: 30px;}
-  </style>
-  </head>
-  <body>
-  <h2> 2.-Acercamiento a resultados por género
-  </h2>
-  <p>
-  Los gráficos que se muestran a continuación se han realizado con la herramienta DataWrapper y tienen como objetivo mostrar las diferencias entre población de hombres y mujeres.
-
-  <br />
-  <br />
-  <iframe title="Importe pagado por grupo de edad y genero" aria-label="Split Bars" id="datawrapper-chart-HsljS" src="https://datawrapper.dwcdn.net/HsljS/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="235" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</iframe>
-
-</script>
-  </script>
-  </script>
-  </script>
-  </p>
-  </body>
-  </html>
-  <html>
-  <head>
-  <style>
-  h2 {color:black; font-size:14px;text-align: left;border-radius: 30px;}
-  </style>
-  </head>
-  <body>
-  
-  <p>
-  <iframe title="Total de hijos asegurados por género del titular" aria-label="Stacked Bars" id="datawrapper-chart-VWb9v" src="https://datawrapper.dwcdn.net/VWb9v/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="180" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-  </script>
-  </p>  
-  </body>
-  </html>
-  <html>
-  <head>
-  <style>
-  h1 {color:black; font-size:24px;text-align: center;border-radius: 30px;}
-  </style>
-  </head>
-  </body>
-  </html>
-
-  <html>
-  <head>
-  <style>
-  h1 {color:black; font-size:24px;text-align: center;border-radius: 30px;}
-  </style>
-  </head>
-  <body>
-  <p> En las gráficas anteriores se puede observar que las características referentes al número de hijos así como el hábito de consumo de  tabaco de las personas es relativamente equitativa en la división por género de acuerdo a lo revisado hasta el momento. Sin embargo la edad pareciera ser el factor principal en torno al cálculo de las cuotas por seguro médico. 
-  <br />
-  <br />
-<h2>3.-¿Qué caracteristicas tienen aquellas personas con las cuotas mas altas en el pago de seguro médico?
+</p>
+<h2> 2.-Acercamiento a resultados por género
 </h2>
-  </p>
-</style>
-  </head>
-  </body>
-  </html>
+<p>
+Los gráficos que se muestran a continuación se han realizado con la herramienta DataWrapper y tienen como objetivo mostrar las diferencias entre población de hombres y mujeres.
+</p>
+<p>
+<iframe title="Importe pagado por grupo de edad y genero" aria-label="Split Bars" id="datawrapper-chart-HsljS" src="https://datawrapper.dwcdn.net/HsljS/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="235" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 
-  <h2> Gráfico de Columnas con D3Plus</h2>
-  <div id="viz3"></div>
- 
+
+<iframe title="Total de hijos asegurados por género del titular" aria-label="Stacked Bars" id="datawrapper-chart-VWb9v" src="https://datawrapper.dwcdn.net/VWb9v/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="180" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+
+
+
