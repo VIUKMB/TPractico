@@ -34,8 +34,7 @@ var visualization = d3plus.viz()
   {"costo": 41034.22},
   {"costo": 42124.52},
   {"costo": 42560.43},
-  {"costo": 45863.21},
-  {"costo": 1991},])
+  {"costo": 45863.21},])
 .type("box")
 .id("costo")
 .x("costo")
