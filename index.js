@@ -8,31 +8,6 @@ var visualization = d3plus.viz()
 .container("#viz3")
 .data(
 [
-  {"year": 1991, "name":"alpha", "value": 15},
-  {"year": 1991, "name":"beta", "value": 10},
-  {"year": 1991, "name":"gamma", "value": 5},
-  {"year": 1991, "name":"delta", "value": 50},
-  {"year": 1992, "name":"alpha", "value": 20},
-  {"year": 1992, "name":"beta", "value": 10},
-  {"year": 1992, "name":"gamma", "value": 10},
-  {"year": 1992, "name":"delta", "value": 43},
-  {"year": 1993, "name":"alpha", "value": 30},
-  {"year": 1993, "name":"beta", "value": 40},
-  {"year": 1993, "name":"gamma", "value": 20},
-  {"year": 1993, "name":"delta", "value": 17},
-  {"year": 1994, "name":"alpha", "value": 60},
-  {"year": 1994, "name":"beta", "value": 60},
-  {"year": 1994, "name":"gamma", "value": 25},
-  {"year": 1994, "name":"delta", "value": 32},])
-.type("box")
-.id("name")
-.x("year")
-.y("value")
-.draw();
-/*var visualization = d3plus.viz()
-.container("#viz3")
-.data(
-[
   {"Edad":43,"name":"Edad 43","costo": 6250.44},
   {"Edad":43,"name":"Edad 43","costo": 6837.37},
   {"Edad":43,"name":"Edad 43","costo": 6849.03},
@@ -59,14 +34,13 @@ var visualization = d3plus.viz()
   {"Edad":43,"name":"Edad 43","costo": 41034.22},
   {"Edad":43,"name":"Edad 43","costo": 42124.52},
   {"Edad":43,"name":"Edad 43","costo": 42560.43},
-  {"Edad":43,"name":"Edad 43","costo": 45863.21},])
+  {"Edad":44,"name":"Edad 43","costo": 45863.21},])
 .type("box")
-.id("name")
-.x("Edad")
+.id("Edad")
+.x("costo")
 .y("costo")
 .draw();
 
-*/
 
 
 
